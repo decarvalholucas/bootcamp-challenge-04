@@ -1,0 +1,13 @@
+.container {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postlist {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 20px;
+  padding: 10px;
+}

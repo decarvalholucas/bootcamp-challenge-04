@@ -1,0 +1,38 @@
+.post {
+  background-color: #FFF;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.post-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-user .post-info {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.post-user .post-info .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.post-user .post-info .info .author {
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.post-user .post-info .info .date {
+  color: #9A9A9A;
+}
+
+.post-user .publication {
+  color: #3E3E3E;
+  font-size: 14px;
+}
