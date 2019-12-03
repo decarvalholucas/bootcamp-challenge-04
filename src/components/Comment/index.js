@@ -1,8 +1,16 @@
 import React from 'react';
 
-function Comment() {
+import "./style.css";
+
+function Comment({ data }) {
+  const { author, content } = data;
   return (
-    <h1>Teste de comentário</h1>
+    <div className="comment">
+      <img src={author.avatar} alt={author.name} className="avatar" />
+      <div className="content">
+        <p><strong>{author.name}</strong> {content}</p>
+      </div>
+    </div>
   );
 }
 

@@ -20,7 +20,7 @@ function Post({ data }) {
       </div>
       <div className="post-comment">
         {comments.map(comment => {
-          return <Comment />
+          return <Comment key={comments.id} data={comment} />
         })}
       </div>
     </div>

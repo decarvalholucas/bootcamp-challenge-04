@@ -1,0 +1,28 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.comment .content {
+  display: flex;
+  background-color: #eeeeee;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.comment .content p {
+  color: #393939;
+}
+
+.comment .content strong {
+  color: #000;
+}
